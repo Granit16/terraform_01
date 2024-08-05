@@ -4,7 +4,7 @@
 
    1. Версия Terraform
       
-   ![](https://github.com/Granit16/terraform_01/blob/main/screenshots/screenshots/terraform_version.png)
+   ![](https://github.com/Granit16/terraform_01/blob/main/screenshots/terraform_version.png)
       
    2. Копия git-репозитория выполнена
    
