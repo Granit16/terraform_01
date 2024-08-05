@@ -15,3 +15,18 @@
    ![](https://github.com/Granit16/terraform_01/blob/main/screenshots/docker_version.png)
 
 </details>
+
+
+<details><summary>Задание 1</summary>
+   
+</details>
+
+
+<details><summary>Задание 2</summary>
+
+</details>
+
+
+<details><summary>Задание 3</summary>
+
+</details>
