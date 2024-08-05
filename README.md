@@ -19,7 +19,8 @@
 
 <details><summary>Задание 1</summary>
    Cекретное содержимое созданного ресурса random_password:
-   `"result": "AYPtqdoMSKtwHD09"`
+   
+   ```"result": "AYPtqdoMSKtwHD09"```
 
 </details>
 
