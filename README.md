@@ -23,7 +23,7 @@
 
 <details><summary>Задание 1</summary>
    
-   Cекретное содержимое созданного ресурса random_password:
+   Cекретное содержимое созданного ресурса **random_password**:
    
    
    ```"result": "AYPtqdoMSKtwHD09"```
