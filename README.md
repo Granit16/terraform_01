@@ -4,14 +4,14 @@
 
    1. Версия Terraform
       
-   ![](https://github.com/Granit16/terraform_01/blob/main/terrafomr_version.png)
-      
+   ![](https://github.com/Granit16/terraform_01/blob/main/screenshots/terrafomr_version.png)
+      https://github.com/Granit16/terraform_01/blob/main/screenshots/terrafomr_version.png
    2. Копия git-репозитория выполнена
    
-   ![](https://github.com/Granit16/terraform_01/blob/main/git.png)
+   ![](https://github.com/Granit16/terraform_01/blob/main/screenshots/git.png)
       
    3. Версия Docker
 
-   ![](https://github.com/Granit16/terraform_01/blob/main/docker_version.png)
+   ![](https://github.com/Granit16/terraform_01/blob/main/screenshots/docker_version.png)
 
 </details>
