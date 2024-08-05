@@ -17,6 +17,7 @@
 </details>
 
 
+
 <details><summary>Задание 1</summary>
    Cекретное содержимое созданного ресурса random_password:
    
@@ -25,9 +26,11 @@
 </details>
 
 
+
 <details><summary>Задание 2</summary>
 
 </details>
+
 
 
 <details><summary>Задание 3</summary>
