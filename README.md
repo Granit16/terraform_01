@@ -56,7 +56,7 @@ CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS  
 
 Опция -auto-approve нужна чтобы создавать объекты без дополнительного подтверждения, но это чревато применением некорректной инфраструктуры или потерей ранее созданных объектов
 
-   Вывод команды `docker ps` после команды `terraform apply -auto-approve`:
+   Вывод команды `docker ps` после изменения имени контейнера в коде и выполнения команды `terraform apply -auto-approve`:
 ```
 damir@terraform:~/ter-homeworks/01/src$ docker ps
 CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS          PORTS                  NAMES
