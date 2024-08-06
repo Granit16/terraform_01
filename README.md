@@ -27,7 +27,33 @@
    
    
    ```"result": "AYPtqdoMSKtwHD09"```
+   
+   Исправленный фрагмент кода:
+   ```
+resource "docker_image" "nginx" {
+  name         = "nginx:latest"
+  keep_locally = true
+}
 
+resource "docker_container" "nginx" {
+  image = docker_image.nginx.image_id
+  name  = "example_${random_password.random_string.result}"
+
+  ports {
+    internal = 80
+    external = 9090
+  }
+```
+
+
+   
+   Вывод команды `docker ps`:
+```
+damir@terraform:~/ter-homeworks/01/src$ docker ps
+CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS         PORTS                  NAMES
+49ff85206f0e   a72860cb95fd   "/docker-entrypoint.…"   17 seconds ago   Up 3 seconds   0.0.0.0:9090->80/tcp   example_AYPtqdoMSKtwHD09
+```
+   
 </details>
 
 
