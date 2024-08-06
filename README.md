@@ -54,7 +54,7 @@ CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS  
 49ff85206f0e   a72860cb95fd   "/docker-entrypoint.…"   17 seconds ago   Up 3 seconds   0.0.0.0:9090->80/tcp   example_AYPtqdoMSKtwHD09
 ```
 
-Что то про -auto-approve
+Опция -auto-approve нужна чтобы создавать объекты без дополнительного подтверждения, но это чревато применением некорректной инфраструктуры или потерей ранее созданных объектов
 
    Вывод команды `docker ps` после команды `terraform apply -auto-approve`:
 ```
