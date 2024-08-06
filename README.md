@@ -62,6 +62,20 @@ damir@terraform:~/ter-homeworks/01/src$ docker ps
 CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS          PORTS                  NAMES
 a3905d226e24   a72860cb95fd   "/docker-entrypoint.…"   40 seconds ago   Up 38 seconds   0.0.0.0:9090->80/tcp   hello_world
 ```
+
+После выполнения команды `terrform destroy` файл tarraform.tfstate выглядит следующим образом:
+```
+{
+  "version": 4,
+  "terraform_version": "1.8.5",
+  "serial": 11,
+  "lineage": "6010e595-8b45-961a-ce01-36a923c2ec37",
+  "outputs": {},
+  "resources": [],
+  "check_results": null
+}
+```
+
 </details>
 
 
