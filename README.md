@@ -82,12 +82,12 @@ a3905d226e24   a72860cb95fd   "/docker-entrypoint.…"   40 seconds ago   Up 38 
 
 
 
-<details><summary>Задание 2</summary>
+<details><summary>Задание 2*</summary>
 
 </details>
 
 
 
-<details><summary>Задание 3</summary>
+<details><summary>Задание 3*</summary>
 
 </details>
