@@ -53,7 +53,15 @@ damir@terraform:~/ter-homeworks/01/src$ docker ps
 CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS         PORTS                  NAMES
 49ff85206f0e   a72860cb95fd   "/docker-entrypoint.…"   17 seconds ago   Up 3 seconds   0.0.0.0:9090->80/tcp   example_AYPtqdoMSKtwHD09
 ```
-   
+
+Что то про -auto-approve
+
+   Вывод команды `docker ps` после команды `terraform apply -auto-approve`:
+```
+   damir@terraform:~/ter-homeworks/01/src$ docker ps
+   CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS          PORTS                  NAMES
+   a3905d226e24   a72860cb95fd   "/docker-entrypoint.…"   40 seconds ago   Up 38 seconds   0.0.0.0:9090->80/tcp   hello_world
+```
 </details>
 
 
