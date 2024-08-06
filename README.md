@@ -75,7 +75,9 @@ a3905d226e24   a72860cb95fd   "/docker-entrypoint.…"   40 seconds ago   Up 38 
   "check_results": null
 }
 ```
+Образы docker контейнеров остались из-за использования ключа `keep_locally = true` в `resource "docker_image"`, что описано в документации Terraform
 
+|`keep_locally` (Boolean) If true, then the Docker image won't be deleted on destroy operation. If this is false, it will delete the image from the docker local storage on destroy operation.
 </details>
 
 
